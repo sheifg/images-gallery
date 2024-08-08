@@ -1,0 +1,32 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+img {
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: inherit;
+    transition: transform 0.7s ease-in-out;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+ /* I have to wrapp the image in the div */
+.wrapper {
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: #102C57;
+    font-size: 0.6rem;
+}

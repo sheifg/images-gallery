@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Wittgenstein", serif;
+  background: rgb(143,209,195);
+  background: linear-gradient(90deg, rgba(143,209,195,1) 20%, rgba(197,234,227,1) 40%, rgba(227,244,242,1) 60%, rgba(241,254,252,1) 80%);
+}
+
